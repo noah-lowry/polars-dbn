@@ -5,8 +5,8 @@ description = "Polars IO plugin for reading the Databento Binary Encoding (DBN) 
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "databento>=0.66.0",
-    "numpy>=2.2.6",
-    "polars>=1.35.2",
-    "pyarrow>=22.0.0",
+    "databento>=0.62.0",
+    "numpy>=2",
+    "polars>=1.31",
+    "pyarrow>=21.0.0",
 ]
