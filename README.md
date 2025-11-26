@@ -1,0 +1,1 @@
+Polars IO plugin for reading the Databento Binary Encoding (DBN) format.
