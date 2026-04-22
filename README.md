@@ -1,4 +1,10 @@
-Polars IO plugin for reading the Databento Binary Encoding (DBN) format.
+### Polars IO plugin for reading the Databento Binary Encoding (DBN) format
+
+#### Installation
+```sh
+uv add git+https://github.com/noah-lowry/polars-dbn
+```
+#### Usage
 
 ```python
 import polars as pl
