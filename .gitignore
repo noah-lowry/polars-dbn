@@ -10,4 +10,6 @@ wheels/
 .venv
 
 .python-version
+.ruff_cache/
 uv.lock
+scratch-tests/
