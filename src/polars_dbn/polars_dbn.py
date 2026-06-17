@@ -166,7 +166,7 @@ def scan_dbn(path):
                     # timestamp types
                     cs.by_name(timestamp_fields, require_all=False)
                     .replace(UNDEF_TIMESTAMP, None)
-                    .cast(pl.Datetime("ns", time_zone="UTC")),
+                    .cast(pl.Datetime("ns", time_zone="UTC"), strict=False),
                     cs.matches(".*_delta$").cast(pl.Duration("ns")),
                     # price types
                     cs.by_name(price_fields, require_all=False)
